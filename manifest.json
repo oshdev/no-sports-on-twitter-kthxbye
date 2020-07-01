@@ -1,10 +1,11 @@
 {
-  "name": "No Sports On Twitter kthxbye",
-  "version": "0.1",
-  "description": "Removes unwarranted sports info forced by Twitter",
   "manifest_version": 2,
+  "name": "No Sports On Twitter kthxbye",
+  "description": "Removes unwarranted sports info forced by Twitter",
+  "version": "0.1",
+  "permissions": ["tabs", "https://twitter.com/*"],
   "background": {
-    "scripts": ["scan-for-spans-with-text.js"],
+    "scripts": ["index.js"],
     "persistent": false
   }
 }
